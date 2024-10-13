@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Ejemplos con JQuery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><i class="fas fa-code"></i> Ejemplos JQuery</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="dom.html">Modificación del DOM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="traversing.html">JQuery Traversing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html">Eventos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección introductoria -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4"><i class="fas fa-laptop-code"></i> Bienvenido a los Ejemplos de JQuery</h1>
+            <p class="lead">Explora las diferentes funcionalidades de JQuery en estas páginas interactivas.</p>
+        </div>
+    </header>
+
+    <!-- Sección de ejemplos con tarjetas -->
+    <div class="container mt-5">
+        <div class="row text-center">
+            <!-- Tarjeta DOM -->
+            <div class="col-md-6 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-object-group"></i> Modificación del DOM</h5>
+                        <p class="card-text">Aprende a manipular los elementos del DOM usando funciones como <code>append</code>, <code>prepend</code>, <code>before</code>, y más.</p>
+                        <a href="dom.html" class="btn btn-primary">Ver Ejemplos</a>
+                    </div>
+                </div>
+            </div>
+
+            
+
+            <!-- Tarjeta Traversing -->
+            <div class="col-md-6 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-sitemap"></i> JQuery Traversing</h5>
+                        <p class="card-text">Explora cómo navegar entre elementos del DOM usando funciones como <code>parent</code>, <code>children</code>, y más.</p>
+                        <a href="traversing.html" class="btn btn-success">Ver Ejemplos</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tarjeta Eventos -->
+            <div class="col-md-6 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-bolt"></i> Eventos en JQuery</h5>
+                        <p class="card-text">Descubre cómo manejar eventos de usuario como <code>click</code>, <code>hover</code>, y más.</p>
+                        <a href="events.html" class="btn btn-warning">Ver Ejemplos</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pie de página -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>Desarrollado por <strong>Tu Nombre</strong> | 2024 <br> <i class="fas fa-code"></i> Estilo y funcionalidad con JQuery y Bootstrap</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
